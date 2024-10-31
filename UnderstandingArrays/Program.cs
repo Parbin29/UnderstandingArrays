@@ -57,8 +57,8 @@
         Console.ReadLine();
         */
 
-        string zig = " If it makes you happy keep it a secret" +
-            " not everyone is genuinly happy for you. ";
+        string zig = "If it makes you happy, keep it a secret" +
+            " not everyone is genuinly happy for you.";
 
         char[] charArray = zig.ToCharArray();   
         Array.Reverse(charArray);
@@ -68,6 +68,8 @@
         {
             Console.Write(zigChar);
         }
+
+        Console.WriteLine("Hello");
 
          Console.ReadLine();
 
